@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-blue {
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.title-purple {
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.value {
+  margin-top: 0.1875rem;
+  padding: 0.125px 0.5rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  font-weight: bold;
+}
